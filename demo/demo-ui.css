@@ -1,0 +1,451 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: monospace, "Open Sans", arial, x-locale-body, sans-serif;
+	background-color: #fff;
+}
+
+.algorithms {
+	border: 10px solid aquamarine;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fff;
+	border: 10px solid aquamarine;
+	-moz-box-shadow: 0 0 10px #333;
+	-webkit-box-shadow: 0 0 10px #333;
+	box-shadow: 0 0 10px #333;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#333')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#333');
+}
+
+}
+@media screen and (min-height: 500px) {
+	.algorithms {
+		margin-bottom: 8em;
+	}
+}
+
+.algorithms tr:nth-child(4) td {
+	padding-bottom: 1em;
+}
+
+.algorithms td {
+	width: auto;
+}
+
+.algorithm td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.algorithm td:first-child {
+	color: #008B8B;
+}
+
+.algorithms tr:last-child td:last-child {
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+	color: brown;
+}
+
+a:hover, a:active, label:hover {
+	color: salmon !important;
+}
+
+a:visited {
+	color: #7798ED;
+}
+
+.best {
+	background-color: #90EE90;
+}
+
+.worst {
+	background-color: #FF6347;
+}
+
+.best a:hover, .worst a:hover {
+	color: #fff !important;
+}
+
+p {
+	text-align: center;
+}
+
+.header {
+	top: 0px;
+	background-color: #F0F8FF;
+	display: table;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border: 5px solid dodgerblue;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 1em;
+}
+
+.close-header {
+	width: 20px;
+	height: 20px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: dodgerblue;
+	float: right;
+	color: #FFF;
+	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 5px #000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=0, Color='#000')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=0, Color='#000');
+	text-align: center;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: .5;
+}
+
+.close-header:hover {
+	background: #7FFFD4;
+	color: #666;
+}
+
+.close-header:active {
+	margin-top: 2px;
+}
+
+.header-toggle {
+	position: fixed;
+	top: -8px;
+	right: -8px;
+	width: 40px;
+	height: 30px;
+	background: #F0F8FF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: -41px;
+	border: 1px solid dodgerblue;
+	padding-top: 10px;
+	text-align: center;
+	color: dodgerblue;
+	font-weight: bold;
+	z-index: 1;
+}
+
+.footer {
+	text-align: center;
+	left: 0px;
+	right: 0px;
+	background: -webkit-linear-gradient(#fff, #ccc);
+	background: -o-linear-gradient(#fff, #ccc);
+	background: -moz-linear-gradient(#fff, #ccc);
+	background: linear-gradient(#fff, #ccc);
+}
+
+@media screen and (min-height: 500px) {
+	.footer {
+		position: fixed;
+		bottom: 0px;
+		margin: 0px;
+		padding: 10px;
+	}
+}
+
+input, select {
+	width: auto;
+	max-width: 100%;
+}
+
+input#jobs {
+	width: 3em;
+}
+
+input#jobs, select, input[type="button"] {
+	height: 2.7em;
+}
+
+.blockUI {
+	display: block;
+}
+
+.blockUI-frame {
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: .5;
+}
+
+.blockUI-caption {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+	bottom: 50%;
+	right: 0;
+	width: 10em;
+	height: 1em;
+	white-space: nowrap;
+	padding: 1em;
+	text-align: center;
+	z-index: 1001;
+	border: 5px solid dodgerblue;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 10px #333;
+	-webkit-box-shadow: 0 0 10px #333;
+	box-shadow: 0 0 10px #333;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#333')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#333');
+}
+
+.blockUI-frame, .blockUI-caption {
+	cursor: wait;
+	position: fixed;
+	background-color: #fff;
+	left: 0;
+}
+
+.unBlockUI, .hidden {
+	display: none !important;
+}
+
+#chart_div {
+	display: inline-block;;
+	min-height: 400px;
+	float: left;
+}
+
+#chart_div_algo {
+	display: inline-block;;
+}
+
+@media screen and (max-width: 500px) {
+	#chart_div_algo {
+		display: none !important;
+	}
+}
+
+.footer {
+	text-align: center;
+	left: 0px;
+	right: 0px;
+	background: -webkit-linear-gradient(#fff, #ccc);
+	background: -o-linear-gradient(#fff, #ccc);
+	background: -moz-linear-gradient(#fff, #ccc);
+	background: linear-gradient(#fff, #ccc);
+}
+
+@media screen and (min-height: 500px) {
+	.footer {
+		position: fixed;
+		bottom: 0px;
+		margin: 0px;
+		padding: 10px;
+	}
+}
+
+input, select {
+	width: auto;
+	max-width: 100%;
+}
+
+input#jobs {
+	width: 3em;
+}
+
+input#jobs, select, input[type="button"] {
+	height: 2.7em;
+}
+
+.blockUI {
+	display: block;
+}
+
+.blockUI-frame {
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: .5;
+}
+
+.blockUI-caption {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+	bottom: 50%;
+	right: 0;
+	width: 10em;
+	height: 1em;
+	white-space: nowrap;
+	padding: 1em;
+	text-align: center;
+	z-index: 1001;
+	border: 5px solid dodgerblue;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 10px #333;
+	-webkit-box-shadow: 0 0 10px #333;
+	box-shadow: 0 0 10px #333;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#333')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#333');
+}
+
+.blockUI-frame, .blockUI-caption {
+	cursor: wait;
+	position: fixed;
+	background-color: #fff;
+	left: 0;
+}
+
+.unBlockUI, .hidden {
+	display: none;
+}
+
+#chart_div {
+	display: inline-block;;
+	min-height: 400px;
+	float: left;
+}
+
+#chart_div_algo {
+	display: inline-block;;
+}
+
+@media screen and (max-width: 500px) {
+	#chart_div_algo {
+		display: none !important;
+	}
+}
+
+#chart_div_algo table {
+	margin: 1em;
+}
+
+#chart_div_algo table tr:first-child td {
+	border-bottom: 1px solid #EEE;
+	font-weight: bold;
+}
+
+#chart_div_algo table tr:nth-child(2) td {
+	padding-top: 1em;
+}
+
+#chart_div_algo table tr:nth-child(n+2) td:first-child {
+	padding-left: 1em;
+	width: 0;
+}
+
+.range-sample table {
+	width: 90%;
+	margin-left: 5%;
+}
+
+.range-sample td:first-child {
+	width: 48%;
+}
+
+.range-sample td:nth-child(2) {
+	width: 0;
+	text-align: center;
+	vertical-align: top;
+}
+
+.range-sample input[type="range"] {
+	width: 100%;
+	height: 2em;
+	margin: 0;
+}
+
+.range-caption {
+	margin-left: 50%;
+	text-align: center;
+}
+
+span#minsample, span#maxsample {
+	margin-left: .5em;
+}
+
+#btnSort {
+	display: none;
+}
+
+.save {
+	display: inline-block;
+}
+
+.save input, .save select {
+	left: 0;
+	display: block;
+	width: 100%;
+}
+
+.chart-actions {
+	text-align: center;
+	margin-bottom: 5em;
+}
+
+.chart-actions tr {
+	vertical-align: top;
+}
+
+input[type="number"].input-range, input[type="text"].input-range {
+	width: 4em;
+}
+
+.rating-filter {
+	width: 100%;
+}
+
+#execratingfilter, .rating-filter, .rating-filter span {
+	display: inline;
+}
+
+.na:after {
+	content: "n/a" !important;
+}
+
+.numeric-only-hidden:after {
+	content: "";
+}
+
+.numeric-only:after {
+	content: "numeric only";
+}
+
+.na:after, .numeric-only:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+	filter: alpha(opacity = 20);
+	-moz-opacity: 0.2;
+	-khtml-opacity: 0.2;
+	opacity: 0.2;
+}
+
+label, input, select, .close-header, .header-toggle {
+	cursor: pointer;
+}
